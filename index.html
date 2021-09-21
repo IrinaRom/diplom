@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://kit.fontawesome.com/ce09f80baf.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="icon" href="/img/icons/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <link rel="stylesheet" href="/css/animate.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <title>EFood Delivery Service</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--!HEADER NAVIGATION-->
+      <header class="header mt-5">
+        <nav class="header-nav navbar navbar-expand-lg navbar-light">
+          <div class="col-sm-3">
+            <a class="navbar-brand" id="logo" href="#"><span class="orange-text" id="logo-span">E</span>Food</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="col-sm-9">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav justify-content-end">
+                <a class="nav-link ml-5" href="#">Home</a>
+                <a class="nav-link ml-5" href="#popular-category">Food</a>
+                <a class="nav-link ml-5" href="#top-restaurants">Restaurants</a>
+                <a class="nav-link ml-5" href="#reviews">Reviews</a>
+                <a class="nav-link ml-5" href="#"><i class="fas fa-shopping-cart"></i></a>
+                <button class="header__btn nav-link ml-5" href="#"><span>Sign Up</span></button>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!--!HEADER CONTENT -->
+        <div class="row header-content">
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="header-content__header">Super Fast <span class="orange-text">Food Delivery</span> Service</h1>
+            <p class="header-content__text">We provide super fast-delivery service. Let’s use our services right now and get discounts of up to 50%</p>
+            <a class="header-content__btn" href="#popular-category">Explore food</a>
+          </div>
+          <div class="col-lg-6 d-none d-md-block header-image">
+            <img class="animated bounceInRight" src="/img/icons/header-icon1.png" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <!--!POPULAR CATEGORY-->
+      <div class="contaner popular-category" id="popular-category">
+        <h3 class="popular-category__header">Our Popular <span class="orange-text">Category</span></h3>
+        <!--*МЕНЮ КАТЕГОРИИ-->
+        <div class="container col-sm-12">
+          <ul class="nav nav-pills mb-3 justify-content-between" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link icon-link active" id="pills-burger-tab" data-toggle="pill" href="#pills-burger" role="tab" aria-controls="pills-burger" aria-selected="true">
+                <i class="fas fa-hamburger"></i>
+                <span class="popular-category__menu-item d-none d-md-block">Burger</span>
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link icon-link" id="pills-pizza-tab" data-toggle="pill" href="#pills-pizza" role="tab" aria-controls="pills-pizza" aria-selected="false">
+                <i class="fas fa-pizza-slice"></i>
+                <span class="popular-category__menu-item d-none d-md-block">Pizza</span>
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-sandwich-tab" data-toggle="pill" href="#pills-sandwich" role="tab" aria-controls="pills-sandwich" aria-selected="false">
+                <i class="fas fa-hotdog"></i>
+                <span class="popular-category__menu-item d-none d-md-block">Hot dogs</span>
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-asian-tab" data-toggle="pill" href="#pills-asian" role="tab" aria-controls="pills-asian" aria-selected="false">
+                <i class="fas fa-fish"></i>
+                <span class="popular-category__menu-item d-none d-md-block">Sushi</span>
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-set-tab" data-toggle="pill" href="#pills-set" role="tab" aria-controls="pills-set" aria-selected="false">
+                <i class="fas fa-carrot"></i>
+                <span class="popular-category__menu-item d-none d-md-block">Vegan</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--*КОНТЕНТ КАТЕГОРИИ-->
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-burger" role="tabpanel" aria-labelledby="pills-burger-tab">
+            <div class="slider">
+              <div class="slider_item">
+                <div class="slider-item__content" data-pid="1">
+                  <img class="slider-item__image" src="/img/food/burgers/item-1.png" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content" data-pid="2">
+                  <img class="slider-item__image" src="/img/food/burgers/item-2.jpg" alt="" />
+                  <img src="/img/Star-2.png" alt="" />
+                  <p class="slider-item__name">Beef Burger</p>
+                  <p class="slider-item__price">$15.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content" data-pid="3">
+                  <img class="slider-item__image" src="/img/food/burgers/item-3.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Royal Cheeseburger</p>
+                  <p class="slider-item__price">$16.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content" data-pid="4">
+                  <img class="slider-item__image" src="/img/food/burgers/item-4.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Black Gambugrer</p>
+                  <p class="slider-item__price">$14.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content" data-pid="5">
+                  <img class="slider-item__image" src="/img/food/burgers/item-5.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Chicken Burger</p>
+                  <p class="slider-item__price">$15.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="arrows"></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab">
+            <div class="slider">
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/pizza/p-1.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Pizza Neapolitana</p>
+                  <p class="slider-item__price">$22.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/pizza/p-2.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Salami Pizza</p>
+                  <p class="slider-item__price">$19.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/pizza/p-3.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Pepperoni Pizza</p>
+                  <p class="slider-item__price">$14.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/pizza/p-4.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Pizza Primavera</p>
+                  <p class="slider-item__price">$25.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/pizza/p-5.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Four Cheese Pizza</p>
+                  <p class="slider-item__price">$17.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="arrows"></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-sandwich" role="tabpanel" aria-labelledby="pills-sandwich-tab">
+            <div class="slider">
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/hot-dogs/hot-1.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">BBQ Dog</p>
+                  <p class="slider-item__price">$15.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/hot-dogs/hot-2.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Corn Dog</p>
+                  <p class="slider-item__price">$8.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/hot-dogs/hot-3.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Classic dog</p>
+                  <p class="slider-item__price">$12.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/hot-dogs/hot-4.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">French Dog</p>
+                  <p class="slider-item__price">$13.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/hot-dogs/hot-5.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Beef Dog</p>
+                  <p class="slider-item__price">$7.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="arrows"></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-asian" role="tabpanel" aria-labelledby="pills-asian-tab">
+            <div class="slider">
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/sushi/s-1.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Dragon Roll set</p>
+                  <p class="slider-item__price">$15.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/sushi/s-2.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Salmon Sushi set</p>
+                  <p class="slider-item__price">$32.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/sushi/s-3.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Philadelfia Roll</p>
+                  <p class="slider-item__price">$16.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/sushi/s-4.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Origato Set</p>
+                  <p class="slider-item__price">$14.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/sushi/s-5.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Nikomoto Set</p>
+                  <p class="slider-item__price">$28.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="arrows"></div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-set" role="tabpanel" aria-labelledby="pills-set-tab">
+            <div class="slider">
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/vegan/v-1.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Veggie salad</p>
+                  <p class="slider-item__price">$15.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/vegan/v-2.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Qinoa tabule</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/vegan/v-3.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Humus with bread</p>
+                  <p class="slider-item__price">$13.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/vegan/v-4.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Falafel with sauce</p>
+                  <p class="slider-item__price">$23.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="/img/food/vegan/v-5.jpg" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Meatless Doner</p>
+                  <p class="slider-item__price">$15.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+              <div class="slider_item">
+                <div class="slider-item__content">
+                  <img src="https://via.placeholder.com/114" alt="" />
+                  <img src="/img/Star.png" alt="" />
+                  <p class="slider-item__name">Cheeseburger With Salad</p>
+                  <p class="slider-item__price">$18.00</p>
+                  <button class="slider-item__btn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+            <div style="height: 1px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--!DELIVERY INFO-->
+    <div class="container delivery-info d-none d-md-block">
+      <div class="row">
+        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+          <img src="/img/icons/food-delivery.png" alt="" />
+        </div>
+        <div class="col-sm-5 delivery-info__content wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s">
+          <h3 class="delivery-info__header"><span class="orange-text">Stay</span> At Home, We Will Provide <span class="orange-text">Good Food</span></h3>
+          <p>We provide tasty food and superfast delivery at your home. Let’s use our services right now and get discounts of up to 50%.</p>
+          <ul class="delivery-info__list">
+            <li>
+              <img src="/img/icons/delivery-icon1.png" width="45" alt="" />
+              <span>Fast Delivery in 30 Minutes</span>
+            </li>
+            <li>
+              <img src="/img/icons/delivery-icon2.png" alt="" />
+              <img src="" alt="" />
+              <span>300+ Delivery Men</span>
+            </li>
+            <li>
+              <img src="/img/icons/delivery-icon3.png" alt="" />
+              <img src="" alt="" />
+              <span>500+ Restaurant & Cafe Shop</span>
+            </li>
+          </ul>
+          <a href="#" class="delivery-info__btn">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <!--!RESTAURANTS CONTAINER-->
+    <div class="restaurants-container container" id="top-restaurants">
+      <h3 class="restaurants-container__header wow fadeInUp" data-wow-duration="2s">Top Food <span class="orange-text">Restaurants</span></h3>
+      <div class="row restaurants-container__row wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="col-sm-12 col-lg-4 restaurants-container__item">
+          <div class="restaurants-container__img">
+            <span><img src="/img/restaurants/pizza-1.png" alt="" /></span>
+          </div>
+          <p class="restaurants-container__title">Blaze Pizza</p>
+          <div class="restaurants-container__div">
+            <span class="restaurants-container__description"><i class="far fa-clock"></i> 11.00 AM - 10.00 PM</span>
+            <a class="restaurants-container__link" href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 restaurants-container__item">
+          <div class="restaurants-container__img">
+            <img src="/img/restaurants/pizza-2.png" alt="" />
+          </div>
+          <p class="restaurants-container__title">Pizza Ranch</p>
+          <div class="restaurants-container__div">
+            <span class="restaurants-container__description"> <i class="far fa-clock"></i> 09.00 AM - 10.00 PM</span>
+            <a class="restaurants-container__link" href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 restaurants-container__item">
+          <div class="restaurants-container__img">
+            <img src="/img/restaurants/pizza-3.png" alt="" />
+          </div>
+          <p class="restaurants-container__title">Dion’s Pizza Huta</p>
+          <div class="restaurants-container__div">
+            <span class="restaurants-container__description"><i class="far fa-clock"> </i> 10.00 AM - 12.00 PM</span>
+            <a class="restaurants-container__link" href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+        <div class="col-sm-12 col-lg-4 restaurants-container__item">
+          <div class="restaurants-container__img">
+            <img src="/img/restaurants/burger-1.png" alt="" />
+          </div>
+          <p class="restaurants-container__title">Royal Burger</p>
+          <div class="restaurants-container__div">
+            <span class="restaurants-container__description"><i class="far fa-clock"></i> 11.00 AM - 10.00 PM</span>
+            <a class="restaurants-container__link" href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 restaurants-container__item">
+          <div class="restaurants-container__img">
+            <img src="/img/restaurants/burger-2.png" alt="" />
+          </div>
+          <p class="restaurants-container__title">KFC Restaurant</p>
+          <div class="restaurants-container__div">
+            <span class="restaurants-container__description"><i class="far fa-clock"></i> 09.00 AM - 10.00 PM</span>
+            <a class="restaurants-container__link" href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 restaurants-container__item">
+          <div class="restaurants-container__img">
+            <img src="/img/restaurants/burger-3.png" alt="" />
+          </div>
+          <p class="restaurants-container__title">Star Food</p>
+          <div class="restaurants-container__div">
+            <span class="restaurants-container__description"><i class="far fa-clock"></i> 10.00 AM - 12.00 PM</span>
+            <a class="restaurants-container__link" href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!--!REVIEWS-->
+      <div class="container reviews-container d-none d-md-block wow slideInUp" id="reviews">
+        <h3 class="reviews-container__header">What Our Clients Are <span class="orange-text">Saying</span></h3>
+        <div class="container reviews-carousel">
+          <div class="row">
+            <div class="col-lg-12">
+              <div>
+                <!-- Bootstrap carousel-->
+                <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+                  <!-- Bootstrap inner [slides]-->
+                  <div class="carousel-inner">
+                    <!-- Carousel slide-->
+                    <div class="carousel-item active">
+                      <div class="media">
+                        <img class="col-sm-4 reviews-container__image" src="/img/reviews.png" alt="" />
+                        <div class="media-body ml-3">
+                          <blockquote class="blockquote border-0 p-0 reviews-container__blockquote">
+                            <p>
+                              <img src="/img/quote-left.png" id="quote-left" alt="" /> EFood has the most intriewiguing food order system in the country. UI in both their app and web Is very simple and easy to use, enhancing the UX. Their delivery men are also quite professional and knows the
+                              neighborhood well. Till now I never had to guide them to my address for delivery. <img src="/img/quote-right.png" id="quote-right" alt="" />
+                            </p>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-sm-10">
+                                  <footer>
+                                    <cite class="cite">
+                                      <p>Anglina Jole</p>
+                                      <span>Food lover</span>
+                                    </cite>
+                                  </footer>
+                                </div>
+                                <div class="review-slider-controllers col-sm-2">
+                                  <a class="carousel-control-prev controllers" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <i class="far far fa-2x fa-arrow-alt-circle-left text-lg"></i>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next controllers" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <i class="far far fa-2x fa-arrow-alt-circle-right text-lg"></i>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Carousel slide-->
+                    <div class="carousel-item">
+                      <div class="media">
+                        <img class="col-sm-4 reviews-container__image" src="/img/review-2.png" alt="" />
+                        <div class="media-body ml-3">
+                          <blockquote class="blockquote border-0 p-0 reviews-container__blockquote">
+                            <p>
+                              <img src="/img/quote-left.png" id="quote-left" alt="" /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ratione maxime officiis libero enim exercitationem nobis? Dolorum sequi harum illum maxime quasi eius beatae eveniet aspernatur! Facere reprehenderit
+                              laudantium illum iusto itaque veritatis ex rem magnam quis! Expedita, odit nesciunt. <img src="/img/quote-right.png" id="quote-right" alt="" />
+                            </p>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-sm-10">
+                                  <footer>
+                                    <cite class="cite">
+                                      <p>Laura Smith</p>
+                                      <span>Burger addict</span>
+                                    </cite>
+                                  </footer>
+                                </div>
+                                <div class="review-slider-controllers col-sm-2">
+                                  <a class="carousel-control-prev controllers" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <i class="far far fa-2x fa-arrow-alt-circle-left text-lg"></i>
+
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next controllers" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <i class="far fa-2x fa-arrow-alt-circle-right text-lg"></i>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--!SUBSCRIBE CONTAINER-->
+      <div class="container subscribe-container d-none d-md-block wow pulse" data-wow-delay="1s">
+        <h4 class="subscribe-container__header">Subscribe to get the Latest Offer</h4>
+        <p class="subscribe-container__text">Get our daily updates by subscribing to our newspaper, please drop your email below</p>
+        <form action="#" class="subscribe-container__input-div">
+          <input type="text" placeholder="Enter your email address" />
+          <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i> Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!--!FOOTER-->
+    <footer>
+      <div class="container footer-info">
+        <div class="row justify-content-between">
+          <div class="col-sm-12 col-lg-3">
+            <div class="footer-info__contacts">
+              <a class="navbar-brand" id="logo" href="#"><span class="orange-text" id="logo-span">E</span>Food</a><br />
+              <span><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</span><br />
+              <a href="tel:0943833399"><i class="fas fa-phone-volume"></i> 0943833399</a><br />
+              <a href="mailto:support@efood.com"><i class="fas fa-envelope"></i> support@efood.com</a>
+            </div>
+            <div class="footer-info_icons">
+              <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="http://pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-2 footer-info__links d-none d-md-block">
+            <h6>Service</h6>
+            <a href="#">How it works</a><br />
+            <a href="#">Home delivery</a><br />
+            <a href="#">Menu</a>
+          </div>
+          <div class="col-sm-2 footer-info__links d-none d-md-block">
+            <h6>Company</h6>
+            <a href="#">About Us</a><br />
+            <a href="#">News</a><br />
+            <a href="#">New users FAQ</a>
+          </div>
+          <div class="col-sm-2 footer-info__links d-none d-md-block">
+            <h6>Supports</h6>
+            <a href="#">Help center</a><br />
+            <a href="#">Contact us</a><br />
+            <a href="#">Term conditions</a>
+          </div>
+          <div class="col-sm-2 footer-info__links d-none d-md-block">
+            <h6>Resources</h6>
+            <a href="#">Blog</a><br />
+            <a href="#">What’s new </a><br />
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+      <hr class="d-none d-md-block" />
+      <div class="container footer-copyright d-none d-md-block">
+        <div class="row" style="margin: 0">
+          <div class="col-sm-8">
+            <p>© 2021 EFood - All rights reserved.</p>
+          </div>
+
+          <div class="col-sm-4 footer-copyright__links">
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--!POPUP-->
+    <div class="popup d-none d-md-block" id="modal">
+      <div class="popup__body">
+        <div class="popup__content" id="modal-content">
+          <a href="#" class="popup__close" id="close-popup"><i class="far fa-times-circle fa-2x"></i></a>
+          <div class="row">
+            <div class="col-sm-6 popup__info">
+              <h4 class="popup__header">Download Our <span class="orange-text">Mobile App</span></h4>
+              <p class="popup__text">It's all at your fingertips — the restaurants you love. Find the right food to suit your mood, and make the first bite last. Go ahead, download app and get <span class="orange-text"> 20% OFF</span> for your first order.</p>
+              <a href="#"><img src="/img/icons/pop-1.png" alt="" /></a>
+              <a href="#" class="ml-4"><img src="/img/icons/pop-2.png" alt="" /></a>
+            </div>
+            <div class="col-sm-6 popup__img">
+              <img src="/img/icons/pop-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
